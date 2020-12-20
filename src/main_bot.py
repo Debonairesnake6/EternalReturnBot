@@ -100,7 +100,7 @@ class DiscordBot:
         """
         await self.message.channel.send('Use `!er_list` to display each area\'s number.\n'
                                         'Then use `!er [area #1] [area #2]...` to calculate the best options for your given path.\n'
-                                        'E.g. `!er_path 2 14 15`')
+                                        'E.g. `!er 2 14 15`')
 
     async def unknown_command(self):
         """

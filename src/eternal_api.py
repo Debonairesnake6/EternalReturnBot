@@ -128,6 +128,8 @@ class EternalReturnApi:
         """
         # noinspection PyTypeChecker
         self.all_info_dict['__timestamp'] = int(datetime.datetime.now().timestamp())
+        if not os.path.isdir('../extra_files'):
+            os.mkdir('../extra_files')
         with open('../extra_files/api_results.json', 'w') as output_file:
             json.dump(self.all_info_dict, output_file)
 
