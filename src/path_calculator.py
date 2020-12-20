@@ -68,9 +68,9 @@ class PathCalc:
             '9': 'Hospital',
             '10': 'Hotel',
             '11': 'Pond',
-            '13': 'School',
-            '14': 'Temple',
-            '15': 'Uptown'
+            '12': 'School',
+            '13': 'Temple',
+            '14': 'Uptown'
         }
         for number in self.__path_list.split():
             if number in areas:

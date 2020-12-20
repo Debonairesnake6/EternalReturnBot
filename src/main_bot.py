@@ -61,10 +61,10 @@ class DiscordBot:
         Display the list of each area and the designated number
         """
         areas_dict = eternal_api.EternalReturnApi().get_all_info()['areas']
+        areas_dict.pop('Research Center')
         final_string = ''
         for cnt, area in enumerate(sorted(list(areas_dict.keys()))):
-            if len(areas_dict[area]) != 0:
-                final_string += f'{cnt:<3}- {area}\n'
+            final_string += f'{cnt:<3}- {area}\n'
         await self.message.channel.send(final_string)
 
     # @staticmethod
