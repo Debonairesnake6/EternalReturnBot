@@ -57,7 +57,7 @@ class PathCalc:
         """
         areas = {
             '0': 'Alley',
-            '1': 'Archery Range',
+            '1': 'Archery',
             '2': 'Avenue',
             '3': 'Beach',
             '4': 'Cemetery',

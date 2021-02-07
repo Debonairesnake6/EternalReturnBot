@@ -77,7 +77,7 @@ class EternalReturnApi:
         """
         Get information for each of the areas
         """
-        area_list = ['Alley', 'Temple', 'Avenue', 'Pond', 'Hospital', 'Archery Range', 'School', 'Research Center',
+        area_list = ['Alley', 'Temple', 'Avenue', 'Pond', 'Hospital', 'Archery', 'School', 'Research Center',
                      'Cemetery', 'Factory', 'Hotel', 'Forest', 'Chapel', 'Beach', 'Uptown', 'Dock']
 
         # Get a list of items for each area
